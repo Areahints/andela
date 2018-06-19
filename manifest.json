@@ -1,0 +1,16 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Andela",
+    "scope": "/andela/",
+    "display": "minimal-ui",
+    "start_url": "https://areahints.github.io/andela/",
+    "short_name": "Hire me - Brand",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": []
+}
