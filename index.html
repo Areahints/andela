@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hire me - Brand</title>
     <link rel="manifest" href="manifest.json"></link>
+    <link rel="serviceworker" href="pwabuilder-sw.js"></link>
+    <link rel="serviceworker" href="pwabuilder-sw-register.js"></link>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -49,21 +51,6 @@
             <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
         </div>
     </footer>
-    //This is the "Offline page" service worker
-
-//Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-if (navigator.serviceWorker.controller) {
-  console.log('[PWA Builder] active service worker found, no need to register')
-} else {
-  //Register the ServiceWorker
-  navigator.serviceWorker.register('pwabuider-sw.js', {
-    scope: './'
-  }).then(function(reg) {
-    console.log('Service worker has been registered for scope:'+ reg.scope);
-  });
-}
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
