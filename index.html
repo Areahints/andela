@@ -19,7 +19,7 @@
             <div class="collapse navbar-collapse"
                 id="navbarNav">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="hire-me.html">Hire me</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Hire me</a></li>
                 </ul>
             </div>
         </div>
@@ -54,6 +54,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+<<<<<<< HEAD
+    <script src="assets/js/sw.js"></script>
+    <script> 
+if (navigator.serviceWorker.controller) {
+  console.log('Active service worker found, no need to register')
+} else {
+
+//Register the ServiceWorker
+  navigator.serviceWorker.register('sw.js', {
+    scope: './'
+  }).then(function(reg) {
+    console.log('Service worker has been registered for scope:'+ reg.scope);
+  });
+}
+</script>
+=======
+>>>>>>> gh-pages
 </body>
 
 </html>

@@ -1,11 +1,9 @@
 {
-    "dir": "ltr",
-    "lang": "en",
-    "name": "Andela",
+    "name": "Andela Test Forms",
     "scope": "/andela/",
     "display": "minimal-ui",
     "start_url": "https://areahints.github.io/andela/",
-    "short_name": "Hire me - Brand",
+    "short_name": "Hire me - Test Forms",
     "theme_color": "transparent",
     "description": "",
     "orientation": "any",
